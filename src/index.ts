@@ -1,4 +1,4 @@
-const productNames: string[] = [
+const productNames = [
     "Engine Oil",
     "Brake Pad",
     "Oil Filter",
@@ -6,3 +6,4 @@ const productNames: string[] = [
 ];
 
 console.log(productNames);
+
