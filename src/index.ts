@@ -1,9 +1,7 @@
-const productNames = [
-    "Engine Oil",
-    "Brake Pad",
-    "Oil Filter",
-    500
-];
+function calculateTotal(price: number, quantity: number): number {
+    return price * quantity;
+}
 
-console.log(productNames);
+const total = calculateTotal(25000, 3);
 
+console.log(total);
